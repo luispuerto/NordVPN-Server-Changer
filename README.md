@@ -26,7 +26,7 @@ username@email.com
 password1234
 ```
 
-It also assumed that you have `openvpn` [installed](openvpn setup.md), of course.
+It also assumed that you have `openvpn` [installed](openvpn%20setup.md), of course.
 
 ## Install
 
