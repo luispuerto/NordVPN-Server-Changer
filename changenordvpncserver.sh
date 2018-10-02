@@ -4,5 +4,4 @@
 
 cp /etc/openvpn/NordVPN-Servers/ovpn_udp/$1.nordvpn.com.udp.ovpn /etc/openvpn/NordVPN.conf
 sed -i 's_auth-user-pass_auth-user-pass /etc/openvpn/login_g' /etc/openvpn/NordVPN.conf
-systemctl stop openvpn@NordVPN
-systemctl start openvpn@NordVPN
+systemctl restart openvpn@NordVPN
