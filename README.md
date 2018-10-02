@@ -2,7 +2,7 @@
 
 This is a small script that develops a command for easily change the NordVPN Server. 
 
-It basically do is 4 commands. 
+It basically do is 3 commands. 
 
 1. It changes the configuration file form the old one to the new one and rename it to `NordVPN.conf`. 
 2. Then add the needed configuration to the file to work properly without the need of a password and username. In other words, set the location of the file containing those two elements. 
