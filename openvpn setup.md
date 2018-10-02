@@ -71,7 +71,7 @@ $ sudo sed -i 's_auth-user-pass_auth-user-pass /etc/openvpn/login_g' /etc/openvp
 Run: 
 
 ```sh 
-sudo openvpn --config /etc/openvpn/NordVPN.conf
+$ sudo openvpn --config /etc/openvpn/NordVPN.conf
 ```
 
 If everything looks fine, stop it with `ctrl+c` and enable it on boot with: 
