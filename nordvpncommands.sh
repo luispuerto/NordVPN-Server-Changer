@@ -16,5 +16,5 @@ function changenordvpnserverto () {
 
 function updatenordvpnserver () {
 	wget -O /etc/openvpn/ovpn.zip https://downloads.nordcdn.com/configs/archives/servers/ovpn.zip
-	unzip -o /etc/openvpn/ovpn.zip -d NordVPN-Servers
+	unzip -o /etc/openvpn/ovpn.zip -d /etc/openvpn/NordVPN-Servers
 }
